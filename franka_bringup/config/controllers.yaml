@@ -91,13 +91,13 @@ joint_trajectory_controller:
       - position
       - velocity
     gains:
-      panda_joint1: { p: 5., d: 50., i: 0., i_clamp: 1. }
-      panda_joint2: { p: 5., d: 50., i: 0., i_clamp: 1. }
-      panda_joint3: { p: 5., d: 50., i: 0., i_clamp: 1. }
-      panda_joint4: { p: 5., d: 50., i: 0., i_clamp: 1. }
-      panda_joint5: { p: 5., d: 50., i: 0., i_clamp: 1. }
-      panda_joint6: { p: 5., d: 50., i: 0., i_clamp: 1. }
-      panda_joint7: { p: 5., d: 50., i: 0., i_clamp: 1. }
+      panda_joint1: { p: 10., d: 50., i: 0., i_clamp: 1. }
+      panda_joint2: { p: 10., d: 50., i: 0., i_clamp: 1. }
+      panda_joint3: { p: 10., d: 50., i: 0., i_clamp: 1. }
+      panda_joint4: { p: 10., d: 50., i: 0., i_clamp: 1. }
+      panda_joint5: { p: 10., d: 50., i: 0., i_clamp: 1. }
+      panda_joint6: { p: 10., d: 50., i: 0., i_clamp: 1. }
+      panda_joint7: { p: 10., d: 50., i: 0., i_clamp: 1. }
 
 joint_impedance_example_controller:
   ros__parameters:
